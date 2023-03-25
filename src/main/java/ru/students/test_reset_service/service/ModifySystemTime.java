@@ -9,6 +9,7 @@ import ru.students.test_reset_service.model.Response;
 @RequiredArgsConstructor
 @Qualifier("ModifySystemTime")
 public class ModifySystemTime implements MyModifyService {
+
     @Override
     public Response modify(Response response){
         response.setSystemTime("");
